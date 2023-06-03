@@ -1,0 +1,85 @@
+.popup_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    background: rgba(0,0,0,.4);
+    display: flex;
+}
+
+.popup-inner {
+    background: #fff;
+    width: 100%;
+    max-width: 520px;
+    width: 520px;
+    border-radius: 4px;
+    margin: auto;
+} 
+
+.popup-inner .popup_img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+}
+
+.popup-inner.popup-inner_user {
+    width: 320px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+.user_popup_body {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.user_popup_body .cover_image {
+    background-image: url("https://upanh123.com/wp-content/uploads/2021/03/hinh-nen-facebook1-1024x379.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.user_popup_body .cover_image .user_avate_popup {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(50%, 50%);
+    border: 1px solid var(--border);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.4);
+}
+
+.user_popup_body > p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.user_popup_body > h3 {
+    font-size: 14px;
+    /* text-shadow: 2px -2px 3px rebeccapurple; */
+}

@@ -1,0 +1,40 @@
+.nav_bar_container {
+    background: var(--HL_sidebar);
+    height: 100vh;
+    width: 64px;
+}
+
+.avatar_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    margin: 15px 0;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.main_nav {
+    height: calc(100% - 75px);
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_above {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_below {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

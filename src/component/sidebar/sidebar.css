@@ -1,0 +1,39 @@
+.side_bar_container {
+    width: 340px;
+    border-right: 1px solid var(--border);
+}
+
+.chat_group_item {
+    display: flex;
+    padding: 10px 50px;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--border);
+}
+
+.chat_group_item:hover {
+    background: var(--lst-item-hover);
+}
+
+.chat_group_item img {
+    width: 45px;
+    height: 45px;
+    object-fit: scale-down;
+    border-radius: 50%;
+}
+
+.chat_group_item h3 {
+    padding-left: 26px;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.chat_group_item span {
+    padding-left: 26px;
+    font-size: 12px;
+    /* font-weight: 600; */
+    color: rgba(0, 0, 0, .7);
+}
+
